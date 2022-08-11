@@ -9,7 +9,7 @@ function About() {
     <div className='about-container'>
         <video src='/home/labber/lighthouse/portfolio/gurulangar/public/videos/video-2.mp4' autoPlay loop muted />
         <h1>Welcome</h1>
-        <p>Placeholder info explaining what we do</p>
+        <p>Gurulangar is a non-profit organizationt that helps Sikhs in need within punjab</p>
         <div className='about-btns'>
             <Button 
             className='btns' 
