@@ -7,7 +7,10 @@ import './About.css'
 function About() {
   return (
     <div className='about-container'>
-        <video src='/home/labber/lighthouse/portfolio/gurulangar/public/videos/video-2.mp4' autoPlay loop muted />
+        {/* <video controls autoPlay loop muted>
+          <source src='/home/labber/lighthouse/portfolio/gurulangar/public/videos/video-2.mp4' type='video/mp4'></source>
+        </video> */}
+        
         <h1>Welcome</h1>
         <p>Gurulangar is a non-profit organizationt that helps Sikhs in need within punjab</p>
         <div className='about-btns'>
