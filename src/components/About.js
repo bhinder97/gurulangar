@@ -9,8 +9,8 @@ const url = "/home/labber/lighthouse/portfolio/gurulangar/public/videos/testvide
 function About() {
   return (
     <div className='about-container'>
-        <video muted controls autoPlay={"autoplay"} loop>
-          <source src='public/videos/testvideo.mp4' type='video/mp4'></source>
+        <video loop muted autoPlay controls>
+          <source src='public/videos/video-2.mp4' type='video/mp4'></source>
         </video>
         {/* <video src='public/videos/video-1.mp4' autoPlay loop muted /> */}
         {/* <ReactPlayer url={url} muted loop playing /> */}
